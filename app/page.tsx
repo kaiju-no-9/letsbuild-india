@@ -9,12 +9,12 @@ export default function Home() {
     <main className="flex flex-col min-h-screen">
 
       {/* 🔹 Hero Section */}
-      <section id="home" className="relative w-full h-screen overflow-hidden snap-always snap-start">
+      <section id="home" className="relative w-full h-screen overflow-hidden">
         <HeroSection />
       </section>
 
       {/* 🔹 Hackathon Section */}
-      <section id="hackathons" className="relative w-full py-24 bg-[#050505] border-t border-[#262626] bg-[radial-gradient(circle_at_50%_0%,_#111_0%,_transparent_50%)] snap-start">
+      <section id="hackathons" className="relative w-full py-24 bg-[#050505] border-t border-[#262626] bg-[radial-gradient(circle_at_50%_0%,_#111_0%,_transparent_50%)]">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col items-center mb-16">
             <p
@@ -41,7 +41,7 @@ export default function Home() {
       {/* 🔹 Sponsors Section */}
       <section
         id="sponsors"
-        className="relative w-full py-24 bg-[#050505] border-t border-[#262626] bg-[radial-gradient(circle_at_50%_0%,_#111_0%,_transparent_50%)] snap-start"
+        className="relative w-full py-24 bg-[#050505] border-t border-[#262626] bg-[radial-gradient(circle_at_50%_0%,_#111_0%,_transparent_50%)]"
       >
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col items-center mb-16">
@@ -69,7 +69,7 @@ export default function Home() {
       {/* 🔹 Contact Us Section */}
       <section
         id="contact"
-        className="relative w-full py-24 bg-[#050505] border-t border-[#262626] bg-[radial-gradient(circle_at_50%_0%,_#111_0%,_transparent_50%)] snap-start"
+        className="relative w-full py-24 bg-[#050505] border-t border-[#262626] bg-[radial-gradient(circle_at_50%_0%,_#111_0%,_transparent_50%)]"
       >
         <div className="max-w-3xl mx-auto px-4">
           <div className="flex flex-col items-center mb-16">
